@@ -1,0 +1,10 @@
+v8-version,6,8,275,32,-node.51,0
+code-deopt,293170713,3200,0x14767f47bce0,0,272,soft,<internal/http.js:14:18> inlined at <_http_outgoing.js:321:26>,Insufficient type feedback for call
+code-deopt,299473556,3552,0x14767f46a1e0,6,33855,eager,<_stream_readable.js:1109:22> inlined at <_stream_readable.js:404:7>,wrong map
+code-deopt,299473713,1312,0x14767f690b80,-1,34269,eager,<_stream_readable.js:1124:21>,wrong map
+code-deopt,299473807,3776,0x14767f68a920,0,17312,eager,<_stream_writable.js:567:20> inlined at <net.js:535:31>,wrong map
+code-deopt,299473859,3424,0x14767f698120,1,18610,eager,<_stream_writable.js:624:23> inlined at <_stream_writable.js:638:5>,wrong map
+code-deopt,299473915,1792,0x14767f698e80,-1,9589,eager,<net.js:344:12>,wrong map
+code-deopt,299474050,352,0x14767f6927c0,-1,3749,eager,<_stream_duplex.js:120:14>,wrong map
+code-deopt,299474118,4832,0x14767f68eca0,-1,202,eager,<internal/streams/destroy.js:5:34>,wrong map
+code-deopt,299474181,6432,0x14767f473620,-1,15239,eager,<net.js:578:19>,wrong map
