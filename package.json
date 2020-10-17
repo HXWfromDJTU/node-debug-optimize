@@ -19,5 +19,8 @@
   "dependencies": {
     "crypto": "^1.0.1",
     "paloma": "^1.2.5"
+  },
+  "devDependencies": {
+    "heapdump": "^0.3.15"
   }
 }

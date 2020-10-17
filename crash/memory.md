@@ -53,10 +53,10 @@ FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memo
 看过朴灵老师的《深入浅出 Nodejs》的小伙伴都能知道，node的GC是区分为新生代、和老生代两部分的。
 ![](../assets/node-gc.png)
 
-|  种类   | 特点  |
-|  ----  | ----  |
-| Young Space  | GC 执行得比较频繁,存放的也是容易失效的对象 |
-| Old Space | GC 执行得少，一般存放的是 Young GC 多次不能回收的变量 |
+|  种类   | 大小  | 执行操作  | 特点  |
+|  ----  | ----  | ---- | ---- |
+| Young Space  | 比较小 | Young GC | GC 执行得比较频繁,存放的也是容易失效的对象 |
+| Old Space | 比较大 | Full GC | GC 执行得少，一般存放的是 Young GC 一段时间内不能回收的变量 |
 
 
 
