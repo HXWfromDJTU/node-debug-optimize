@@ -4,7 +4,13 @@
   "description": "### chapter 1 火焰图",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "crypto-test": "node crypto/index.js",
+    "ssr-test": "node ssr/index.js",
+    "ssr-server": "babel-node ssr/src/server.js",
+    "ssr-serve": "vue-cli-service serve",
+    "ssr-build": "vue-cli-service build",
+    "ssr-build:server": "cross-env WEBPACK_TARGET=node vue-cli-service build --mode server"
   },
   "repository": {
     "type": "git",
@@ -18,9 +24,14 @@
   "homepage": "https://github.com/HXWfromDJTU/node-debug-optimize#readme",
   "dependencies": {
     "crypto": "^1.0.1",
-    "paloma": "^1.2.5"
+    "express": "^4.17.1",
+    "paloma": "^1.2.5",
+    "vue": "^2.6.12",
+    "vue-server-renderer": "^2.6.12"
   },
   "devDependencies": {
-    "heapdump": "^0.3.15"
+    "heapdump": "^0.3.15",
+    "vue-server-renderer": "^2.6.12",
+    "webpack-node-externals": "^2.5.2"
   }
 }
